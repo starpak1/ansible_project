@@ -1,0 +1,5 @@
+- name: Save Ansible example events in rest api
+  hosts: localhost
+  tasks:
+    - name: Events-log-example-TASK
+      shell: /bin/echo Events log task
